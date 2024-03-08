@@ -27,8 +27,25 @@ namespace CSharpBasicTraning
             Console.WriteLine($"The longest prefix found is: {result}.");
             */
 
+            /*
             bool result = ValidParentheses.IsValid("()");
             Console.WriteLine("The given parentheses {0}.", result ? "is valid" : "is not valid");
+            */
+
+            /*
+            int[] ints = [0];
+            int result = DuplicatesRemoval.RemoveDuplicates(ints);
+            Console.WriteLine(result);
+            */
+
+            /*
+            int[] ints = [0, 1, 2, 2, 3, 0, 4, 2];
+            int result = DuplicatesRemoval.DuplicatesDeletion(ints, 2);
+            Console.WriteLine(result);
+            */
+
+            int result = FindInString.StrStrRegex("leetcode", "leeto");
+            Console.WriteLine(result);
         }
     }
 }
