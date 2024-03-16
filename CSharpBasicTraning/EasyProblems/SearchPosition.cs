@@ -10,7 +10,7 @@ namespace CSharpBasicTraning.EasyProblems
     {
         public static int SearchInsert(int[] nums, int target) 
         {
-            return 0;
+            throw new NotImplementedException();
         }
     }
 }

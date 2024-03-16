@@ -1,4 +1,5 @@
 ﻿using CSharpBasicTraning.EasyProblems;
+using CSharpBasicTraning.NormalProblems;
 
 namespace CSharpBasicTraning
 {
@@ -44,8 +45,16 @@ namespace CSharpBasicTraning
             Console.WriteLine(result);
             */
 
+            /*
             int result = FindInString.StrStrRegex("leetcode", "leeto");
             Console.WriteLine(result);
+            */
+
+            int[] result = ProductOfArr.ProductExceptSelfOwnSolOptimized([1, 2, 3, 4]);
+            foreach (int item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
